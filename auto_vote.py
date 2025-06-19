@@ -234,7 +234,8 @@ def vote():
 
 def main():
     successful_votes = 0
-    total_attempts = int(input("Nhập số lượng bình chọn bạn muốn thực hiện: "))
+    # total_attempts = int(input("Nhập số lượng bình chọn bạn muốn thực hiện: "))
+    total_attempts = 10000
     
     print("\nBắt đầu quá trình bình chọn tự động...")
     print("Mỗi lần bình chọn sẽ cách nhau 1-3 phút để tránh bị phát hiện")
